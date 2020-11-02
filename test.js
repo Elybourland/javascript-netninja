@@ -1,21 +1,10 @@
-function getAverage (a, b) {
+var a = 7;
+var b = 5;
 
-    // average is a local variable
+console.log(a + b);
 
-    var average = (a + b) / 2; 
-    console.log(average);
-    return average;
-
-}
-
-// myResult is a global variable
-
-var myResult = getAverage(7, 11);
-
-function logResult () {
-
-    console.log("The average is " + myResult + " inside the function.");
-
-}
-
-logResult();
+console.log(Math.max(7, 9, 3, 6));
+console.log(Math.round(7.8));
+console.log(Math.floor(7.6));
+console.log(Math.ceil(7.3));
+console.log(Math.PI);
