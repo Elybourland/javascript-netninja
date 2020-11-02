@@ -1,11 +1,21 @@
-function getAverage (a, b, c, d, e, f) {
+function getAverage (a, b) {
 
-    var average = (a + b + c + d + e + f) / 6;
+    // average is a local variable
+
+    var average = (a + b) / 2; 
     console.log(average);
     return average;
 
 }
 
-var myResult = getAverage(7, 12, 11, 3, 4, 5);
+// myResult is a global variable
 
-console.log("The average is " + myResult);
+var myResult = getAverage(7, 11);
+
+function logResult () {
+
+    console.log("The average is " + myResult + " inside the function.");
+
+}
+
+logResult();
