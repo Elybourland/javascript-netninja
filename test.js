@@ -1,10 +1,18 @@
-var a = 7;
+var a = 5;
 var b = 5;
 
-console.log(a + b);
+if (isNaN(a)) {
 
-console.log(Math.max(7, 9, 3, 6));
-console.log(Math.round(7.8));
-console.log(Math.floor(7.6));
-console.log(Math.ceil(7.3));
-console.log(Math.PI);
+    console.log("That ain't a number!");
+
+} else {
+
+    console.log("The meaning of life is " + (a * b));
+
+}
+
+/* if (!isNan(a)); {
+    
+    console.log("The meaning of life is " + (a * b));
+
+} */
