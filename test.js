@@ -1,18 +1,22 @@
-var a = 5;
-var b = 5;
+var myArray = new Array();
+myArray[0] = 8;
+myArray[1] = 'hello';
 
-if (isNaN(a)) {
+var myCar = new Object();
 
-    console.log("That ain't a number!");
+myCar.maxSpeed = 50;
+myCar.driver = 'Ely';
+myCar.drive = function() {console.log('now driving');};
 
-} else {
+myCar.drive();
 
-    console.log("The meaning of life is " + (a * b));
-
+var myCar2 = {
+    maxSpeed: 70, 
+    driver: 'Net Ninja', 
+    drive: function(speed, time) { console.log(speed * time);
 }
 
-/* if (!isNan(a)); {
-    
-    console.log("The meaning of life is " + (a * b));
+};
 
-} */
+console.log(myCar2.maxSpeed);
+myCar2.drive(50, 3);
