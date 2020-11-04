@@ -1,14 +1,11 @@
-var birthday = new Date(1985, 0, 15, 11, 15, 25);
-var birthday2 = new Date(1985, 0, 15, 11, 15, 25);
+// Changing content using the DOM
 
-console.log(birthday.getTime());
+// Declare the property with a variable: var myBody = document.getElementsByTagName("body");
 
-if(birthday.getTime() == birthday2.getTime()) {
+// myBody[0].innerHTML = 
 
-    console.log("birthdays are equal");
+// var myTitle = document.getElementById("page-title");
 
-} else{
+// myTitle.textContent;
 
-    console.log("birthdays are not equal");
-
-}
+// myTitle.textContent = "Yo Ninjas, get ready to learn!";
